@@ -170,6 +170,21 @@ public class Picture extends SimplePicture {
         }
     }
 
+    public void mirrorSeagull() {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel leftPixel = null;
+        Pixel rightPixel = null;
+        int mirror = 343;
+
+        for (int row = 234; row < 321; row ++) { //Mirror first arm
+            for (int col = 237; col < mirror; col ++) {
+                leftPixel = pixels[row][col];
+                rightPixel = pixels[row][mirror - col + mirror];
+                rightPixel.setColor(leftPixel.getColor());
+            }
+        }
+    }
+
     public void mirrorHorizontalBotToTop() {
         Pixel[][] pixels = this.getPixels2D();
         Pixel top = null;

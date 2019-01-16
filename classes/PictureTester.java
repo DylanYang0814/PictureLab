@@ -104,6 +104,14 @@ public class PictureTester {
         jenny.explore();
     }
 
+    public static void testMirrorGull() {
+        Picture seagull = new Picture("seagull.jpg");
+        seagull.explore();
+        seagull.mirrorSeagull();
+        seagull.explore();
+    }
+
+
     /**
      * Main method for testing.  Every class can have a main
      * method in Java
@@ -113,10 +121,6 @@ public class PictureTester {
         // and comment out the ones you don't want
         // to run
 
-        Picture snowman = new Picture("snowman.jpg");
-        snowman.explore();
-        snowman.mirrorArms();
-        snowman.explore();
         //testMirrorHorizontalBotToTop();
         //testFixUnderwater();
         //testMirrorHorizontal();
