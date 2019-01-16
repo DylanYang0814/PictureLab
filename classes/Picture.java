@@ -244,8 +244,8 @@ public class Picture extends SimplePicture {
         Pixel top = null;
         Pixel bot = null;
         Pixel[][] pixels = this.getPixels2D();
-        for (int row = 164; row < 195; row++) {
-            for (int col = 105; col < 295; col++) {
+        for (int row = 164; row < 191; row++) {
+            for (int col = 105; col < 291; col++) {
                 top = pixels[row][col];
                 bot = pixels[195 - row + 195][col];
                 bot.setColor(top.getColor());
@@ -319,6 +319,7 @@ public class Picture extends SimplePicture {
             }
         }
     }
+
 
 
     /* Main method for testing - each class in Java can have a main
