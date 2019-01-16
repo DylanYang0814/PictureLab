@@ -104,6 +104,7 @@ public class PictureTester {
         jenny.explore();
     }
 
+<<<<<<< Updated upstream
     /**
      * Main method for testing.  Every class can have a main
      * method in Java
@@ -139,4 +140,36 @@ public class PictureTester {
         //testClearBlueOverValue(200);
         //testGetAverageForColumn(0);
     }
+=======
+  /** Main method for testing.  Every class can have a main
+    * method in Java */
+  public static void main(String[] args)
+  {
+    // uncomment a call here to run a test
+    // and comment out the ones you don't want
+    // to run
+    //testZeroBlue();
+    //testKeepOnlyBlue();
+    //testKeepOnlyRed();
+    //testKeepOnlyGreen();
+    //testNegate();
+    //testGrayscale();
+    //testFixUnderwater();
+    //testMirrorVertical();
+    testMirrorTemple();
+    //testMirrorArms();
+    //testMirrorGull();
+    //testMirrorDiagonal();
+    //testCollage();
+    //testCopy();
+    //testEdgeDetection();
+    //testEdgeDetection2();
+    //testChromakey();
+    //testEncodeAndDecode();
+    //testGetCountRedOverValue(250);
+    //testSetRedToHalfValueInTopHalf();
+    //testClearBlueOverValue(200);
+    //testGetAverageForColumn(0);
+  }
+>>>>>>> Stashed changes
 }
